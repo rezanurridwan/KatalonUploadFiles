@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ceklis</name>
+   <tag></tag>
+   <elementGuidId>0d068b17-4a89-417d-8ac3-8152612b875f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.dz-success-mark > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='drag-drop-upload']/div/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e21f54e4-b3bd-41c8-ad85-d65cf038d42d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>✔</value>
+      <webElementGuid>a742f0c9-a0f4-432d-8ad6-b3af5ae1fa5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;drag-drop-upload&quot;)/div[@class=&quot;dz-preview dz-processing dz-image-preview dz-success dz-complete&quot;]/div[@class=&quot;dz-success-mark&quot;]/span[1]</value>
+      <webElementGuid>a2c587a1-95ac-4f29-b075-b4fcb362edca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='drag-drop-upload']/div/div[2]/span</value>
+      <webElementGuid>3752b782-adfe-4cfc-94c2-5d647cb4e432</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='alien.png'])[1]/following::span[1]</value>
+      <webElementGuid>9e4119fc-1b1f-4264-8bbf-c8273c54f39e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File Uploader'])[1]/following::span[2]</value>
+      <webElementGuid>f9bac065-4306-44fe-b942-64fa8fa07873</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='✔'])[2]/preceding::span[2]</value>
+      <webElementGuid>fc0b3634-9bc8-46ad-a4ac-003594c7b08b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='✔']/parent::*</value>
+      <webElementGuid>e9558f26-4221-40db-8fc9-a101b231ff42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span</value>
+      <webElementGuid>3b24e6aa-2c90-4ab0-b2f9-769c288aa087</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '✔' or . = '✔')]</value>
+      <webElementGuid>2d283e7a-1a43-410f-b389-e96df9aab6fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
