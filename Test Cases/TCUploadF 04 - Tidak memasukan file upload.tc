@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tidak memasukan file upload</description>
+   <name>TCUploadF 04 - Tidak memasukan file upload</name>
+   <tag>Upload file</tag>
+   <comment></comment>
+   <testCaseGuid>bcfc50b2-2c0a-434b-9708-c32a78e13ada</testCaseGuid>
+</TestCaseEntity>
