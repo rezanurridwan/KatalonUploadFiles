@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Upload File (Single Test Case upload)</description>
-   <name>TCUploadF 02 - Upload dengan menekan inframe drag file upload</name>
+   <name>TCUploadF 04 - Upload dengan drag file</name>
    <tag>Upload file</tag>
    <comment></comment>
-   <testCaseGuid>2f497919-ac1c-4631-a147-2f1201c55fb2</testCaseGuid>
+   <testCaseGuid>5a45f0ff-de27-40c6-a678-01d92fa3498b</testCaseGuid>
 </TestCaseEntity>

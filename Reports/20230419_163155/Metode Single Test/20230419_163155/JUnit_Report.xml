@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Metode Single Test" time="44.158" tests="3" failures="0" errors="0">
+   <testsuite name="Metode Single Test" tests="3" failures="0" errors="0" time="44.158" skipped="0" timestamp="2023-04-19 16:32:04" hostname="LENOVO - DESKTOP-0EH6HA0" id="Test Suites/Metode Single Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\Katalon Upload Files\\Reports\\20230419_163155\\Metode Single Test\\20230419_163155"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\Katalon Upload Files\\Reports\\20230419_163155\\Metode Single Test\\20230419_163155\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\Katalon Upload Files\\Reports\\20230419_163155\\Metode Single Test\\20230419_163155\\1681896744456.png, C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\Katalon Upload Files\\Reports\\20230419_163155\\Metode Single Test\\20230419_163155\\1681896747372.png, C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\Katalon Upload Files\\Reports\\20230419_163155\\Metode Single Test\\20230419_163155\\1681896755701.png, C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\Katalon Upload Files\\Reports\\20230419_163155\\Metode Single Test\\20230419_163155\\1681896757768.png, C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\Katalon Upload Files\\Reports\\20230419_163155\\Metode Single Test\\20230419_163155\\1681896766492.png, C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\Katalon Upload Files\\Reports\\20230419_163155\\Metode Single Test\\20230419_163155\\1681896768415.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-0EH6HA0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 112.0.0.0"/>
+         <property name="hostAddress" value="192.168.145.27"/>
+         <property name="sessionId" value="759337a77e54097f4ee5bf4420c9dcc8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Single Test/TCUploadF 03 - Upload dengan menekan inframe drag file upload" time="21.448" classname="Test Cases/Single Test/TCUploadF 03 - Upload dengan menekan inframe drag file upload" status="PASSED">
+         <system-out><![CDATA[2023-04-19 16:32:06 - [TEST_CASE][PASSED] - Test Cases/Single Test/TCUploadF 03 - Upload dengan menekan inframe drag file upload: Test Cases/Single Test/TCUploadF 03 - Upload dengan menekan inframe drag file upload
+
+2023-04-19 16:32:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-19 16:32:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-19 16:32:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-19 16:32:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-19 16:32:15 - [TEST_STEP][PASSED] - navigateToUrl("http://the-internet.herokuapp.com/upload"): Navigate to 'http://the-internet.herokuapp.com/upload' successfully
+
+2023-04-19 16:32:23 - [MESSAGE][PASSED] - Navigate to 'http://the-internet.herokuapp.com/upload' successfully
+
+2023-04-19 16:32:23 - [TEST_STEP][PASSED] - uploadFile(findTestObject("File Upload/btn_choose file"), "C:\Users\LENOVO\Desktop\B#6\TASK\DAY 7 KATALON UPLOAD FILES\alien.png"): File 'C:\Users\LENOVO\Desktop\B#6\TASK\DAY 7 KATALON UPLOAD FILES\alien.png' sent to object: 'Object Repository/File Upload/btn_choose file'
+
+2023-04-19 16:32:24 - [MESSAGE][PASSED] - File 'C:\Users\LENOVO\Desktop\B#6\TASK\DAY 7 KATALON UPLOAD FILES\alien.png' sent to object: 'Object Repository/File Upload/btn_choose file'
+
+2023-04-19 16:32:24 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-04-19 16:32:25 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-04-19 16:32:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\Katalon Upload Files\\Reports\\20230419_163155\\Metode Single Test\\20230419_163155\\1681896744456.png]]
+
+2023-04-19 16:32:25 - [TEST_STEP][PASSED] - click(findTestObject("File Upload/btn_upload")): Object: 'Object Repository/File Upload/btn_upload' is clicked on
+
+2023-04-19 16:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/File Upload/btn_upload' is clicked on
+
+2023-04-19 16:32:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Alert/h3_File Uploaded"), "File Uploaded!"): Actual text and expected text of test object 'Object Repository/Alert/h3_File Uploaded' are matched.
+
+2023-04-19 16:32:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Alert/h3_File Uploaded' are matched.
+
+2023-04-19 16:32:27 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-04-19 16:32:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-04-19 16:32:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\Katalon Upload Files\\Reports\\20230419_163155\\Metode Single Test\\20230419_163155\\1681896747372.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Single Test/TCUploadF 04 - Upload dengan drag file" time="10.36" classname="Test Cases/Single Test/TCUploadF 04 - Upload dengan drag file" status="PASSED">
+         <system-out><![CDATA[2023-04-19 16:32:27 - [TEST_CASE][PASSED] - Test Cases/Single Test/TCUploadF 04 - Upload dengan drag file: Test Cases/Single Test/TCUploadF 04 - Upload dengan drag file
+
+2023-04-19 16:32:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-19 16:32:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-19 16:32:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-19 16:32:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-19 16:32:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-19 16:32:31 - [TEST_STEP][PASSED] - navigateToUrl("http://the-internet.herokuapp.com/upload"): Navigate to 'http://the-internet.herokuapp.com/upload' successfully
+
+2023-04-19 16:32:34 - [MESSAGE][PASSED] - Navigate to 'http://the-internet.herokuapp.com/upload' successfully
+
+2023-04-19 16:32:34 - [TEST_STEP][PASSED] - uploadFileWithDragAndDrop(findTestObject("File Upload/div_drag file"), "C:\Users\LENOVO\Desktop\B#6\TASK\DAY 7 KATALON UPLOAD FILES\alien.png"): null
+
+2023-04-19 16:32:35 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-04-19 16:32:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-04-19 16:32:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\Katalon Upload Files\\Reports\\20230419_163155\\Metode Single Test\\20230419_163155\\1681896755701.png]]
+
+2023-04-19 16:32:36 - [TEST_STEP][PASSED] - click(findTestObject("File Upload/btn_upload")): Object: 'Object Repository/File Upload/btn_upload' is clicked on
+
+2023-04-19 16:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/File Upload/btn_upload' is clicked on
+
+2023-04-19 16:32:37 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-04-19 16:32:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-04-19 16:32:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\Katalon Upload Files\\Reports\\20230419_163155\\Metode Single Test\\20230419_163155\\1681896757768.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Single Test/TCUploadF 05 - Tidak memasukan file upload" time="10.623" classname="Test Cases/Single Test/TCUploadF 05 - Tidak memasukan file upload" status="PASSED">
+         <system-out><![CDATA[2023-04-19 16:32:38 - [TEST_CASE][PASSED] - Test Cases/Single Test/TCUploadF 05 - Tidak memasukan file upload: Test Cases/Single Test/TCUploadF 05 - Tidak memasukan file upload
+
+2023-04-19 16:32:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-19 16:32:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-19 16:32:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-19 16:32:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-19 16:32:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-19 16:32:41 - [TEST_STEP][PASSED] - navigateToUrl("http://the-internet.herokuapp.com/upload"): Navigate to 'http://the-internet.herokuapp.com/upload' successfully
+
+2023-04-19 16:32:46 - [MESSAGE][PASSED] - Navigate to 'http://the-internet.herokuapp.com/upload' successfully
+
+2023-04-19 16:32:46 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-04-19 16:32:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-04-19 16:32:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\Katalon Upload Files\\Reports\\20230419_163155\\Metode Single Test\\20230419_163155\\1681896766492.png]]
+
+2023-04-19 16:32:47 - [TEST_STEP][PASSED] - click(findTestObject("File Upload/btn_upload")): Object: 'Object Repository/File Upload/btn_upload' is clicked on
+
+2023-04-19 16:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/File Upload/btn_upload' is clicked on
+
+2023-04-19 16:32:48 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-04-19 16:32:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-04-19 16:32:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\Katalon Upload Files\\Reports\\20230419_163155\\Metode Single Test\\20230419_163155\\1681896768415.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-19 16:32:04 - [TEST_SUITE][PASSED] - Metode Single Test: Test Cases/Single Test/TCUploadF 05 - Tidak memasukan file upload]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

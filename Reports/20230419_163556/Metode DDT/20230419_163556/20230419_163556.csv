@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Metode DDT,Chrome 112.0.0.0,Data input dari internal project,,2023-04-19 16:36:04,2023-04-19 16:36:42,37.956s,PASSED
+,,,,,,,
+Test Cases/Metode DDT/TCUploadF 01 - Upload foto,Chrome 112.0.0.0,Upload Foto (Metode DDT),Upload file,2023-04-19 16:36:05,2023-04-19 16:36:22,17.243s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-19 16:36:06,2023-04-19 16:36:11,5.035s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/upload"")",Chrome 112.0.0.0,,,2023-04-19 16:36:11,2023-04-19 16:36:18,6.794s,PASSED
+"folder = System.getProperty(""user.dir"")",Chrome 112.0.0.0,,,2023-04-19 16:36:18,2023-04-19 16:36:18,0.005s,PASSED
+"uploadFile(findTestObject(""File Upload/btn_choose file""), folder + ""/Upload/alien.png"")",Chrome 112.0.0.0,,,2023-04-19 16:36:18,2023-04-19 16:36:18,0.775s,PASSED
+takeFullPageScreenshot(),Chrome 112.0.0.0,,,2023-04-19 16:36:18,2023-04-19 16:36:20,1.199s,PASSED
+"click(findTestObject(""File Upload/btn_upload""))",Chrome 112.0.0.0,,,2023-04-19 16:36:20,2023-04-19 16:36:21,1.106s,PASSED
+"verifyElementText(findTestObject(""Alert/h3_File Uploaded""), ""File Uploaded!"")",Chrome 112.0.0.0,,,2023-04-19 16:36:21,2023-04-19 16:36:21,0.449s,PASSED
+takeFullPageScreenshot(),Chrome 112.0.0.0,,,2023-04-19 16:36:21,2023-04-19 16:36:22,0.596s,PASSED
+,,,,,,,
+Test Cases/Metode DDT/TCUploadF 02 - Upload file,Chrome 112.0.0.0,Upload Foto (Metode DDT),Upload file,2023-04-19 16:36:22,2023-04-19 16:36:42,19.847s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-19 16:36:23,2023-04-19 16:36:26,2.907s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/upload"")",Chrome 112.0.0.0,,,2023-04-19 16:36:26,2023-04-19 16:36:37,10.941s,PASSED
+"folder = System.getProperty(""user.dir"")",Chrome 112.0.0.0,,,2023-04-19 16:36:37,2023-04-19 16:36:37,0.001s,PASSED
+"uploadFile(findTestObject(""File Upload/btn_choose file""), folder + ""/Upload/[Team 3] QA 6 Update Progres.docx"")",Chrome 112.0.0.0,,,2023-04-19 16:36:37,2023-04-19 16:36:37,0.702s,PASSED
+takeFullPageScreenshot(),Chrome 112.0.0.0,,,2023-04-19 16:36:37,2023-04-19 16:36:38,0.834s,PASSED
+"click(findTestObject(""File Upload/btn_upload""))",Chrome 112.0.0.0,,,2023-04-19 16:36:38,2023-04-19 16:36:41,2.533s,PASSED
+"verifyElementText(findTestObject(""Alert/h3_File Uploaded""), ""File Uploaded!"")",Chrome 112.0.0.0,,,2023-04-19 16:36:41,2023-04-19 16:36:41,0.536s,PASSED
+takeFullPageScreenshot(),Chrome 112.0.0.0,,,2023-04-19 16:36:41,2023-04-19 16:36:42,0.498s,PASSED

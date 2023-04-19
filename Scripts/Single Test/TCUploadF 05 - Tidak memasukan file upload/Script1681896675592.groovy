@@ -21,13 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://the-internet.herokuapp.com/upload')
 
-WebUI.uploadFile(findTestObject('File Upload/btn_choose file'), 'C:\\Users\\LENOVO\\Desktop\\B#6\\TASK\\DAY 7 KATALON UPLOAD FILES\\alien.png')
-
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('File Upload/btn_upload'))
-
-WebUI.verifyElementText(findTestObject('Alert/h3_File Uploaded'), 'File Uploaded!')
 
 WebUI.takeFullPageScreenshot()
 

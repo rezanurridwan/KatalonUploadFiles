@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Metode Single Test,Chrome 112.0.0.0,Data input dari direktori lokal,,2023-04-19 16:32:04,2023-04-19 16:32:48,44.158s,PASSED
+,,,,,,,
+Test Cases/Single Test/TCUploadF 03 - Upload dengan menekan inframe drag file upload,Chrome 112.0.0.0,Upload File (Single Test Case upload),Upload file,2023-04-19 16:32:06,2023-04-19 16:32:27,21.448s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-19 16:32:08,2023-04-19 16:32:15,7.027s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/upload"")",Chrome 112.0.0.0,,,2023-04-19 16:32:15,2023-04-19 16:32:23,8.008s,PASSED
+"uploadFile(findTestObject(""File Upload/btn_choose file""), ""C:\Users\LENOVO\Desktop\B#6\TASK\DAY 7 KATALON UPLOAD FILES\alien.png"")",Chrome 112.0.0.0,,,2023-04-19 16:32:23,2023-04-19 16:32:24,0.853s,PASSED
+takeFullPageScreenshot(),Chrome 112.0.0.0,,,2023-04-19 16:32:24,2023-04-19 16:32:25,1.271s,PASSED
+"click(findTestObject(""File Upload/btn_upload""))",Chrome 112.0.0.0,,,2023-04-19 16:32:25,2023-04-19 16:32:26,1.231s,PASSED
+"verifyElementText(findTestObject(""Alert/h3_File Uploaded""), ""File Uploaded!"")",Chrome 112.0.0.0,,,2023-04-19 16:32:26,2023-04-19 16:32:27,0.469s,PASSED
+takeFullPageScreenshot(),Chrome 112.0.0.0,,,2023-04-19 16:32:27,2023-04-19 16:32:27,0.558s,PASSED
+,,,,,,,
+Test Cases/Single Test/TCUploadF 04 - Upload dengan drag file,Chrome 112.0.0.0,Upload File (Single Test Case upload),Upload file,2023-04-19 16:32:27,2023-04-19 16:32:38,10.360s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-19 16:32:28,2023-04-19 16:32:31,2.714s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/upload"")",Chrome 112.0.0.0,,,2023-04-19 16:32:31,2023-04-19 16:32:34,3.519s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""File Upload/div_drag file""), ""C:\Users\LENOVO\Desktop\B#6\TASK\DAY 7 KATALON UPLOAD FILES\alien.png"")",Chrome 112.0.0.0,,,2023-04-19 16:32:34,2023-04-19 16:32:35,0.720s,PASSED
+takeFullPageScreenshot(),Chrome 112.0.0.0,,,2023-04-19 16:32:35,2023-04-19 16:32:36,1.053s,PASSED
+"click(findTestObject(""File Upload/btn_upload""))",Chrome 112.0.0.0,,,2023-04-19 16:32:36,2023-04-19 16:32:37,1.015s,PASSED
+takeFullPageScreenshot(),Chrome 112.0.0.0,,,2023-04-19 16:32:37,2023-04-19 16:32:38,0.547s,PASSED
+,,,,,,,
+Test Cases/Single Test/TCUploadF 05 - Tidak memasukan file upload,Chrome 112.0.0.0,Tidak memasukan file upload,Upload file,2023-04-19 16:32:38,2023-04-19 16:32:48,10.623s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-19 16:32:38,2023-04-19 16:32:41,2.881s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/upload"")",Chrome 112.0.0.0,,,2023-04-19 16:32:41,2023-04-19 16:32:46,4.588s,PASSED
+takeFullPageScreenshot(),Chrome 112.0.0.0,,,2023-04-19 16:32:46,2023-04-19 16:32:47,0.930s,PASSED
+"click(findTestObject(""File Upload/btn_upload""))",Chrome 112.0.0.0,,,2023-04-19 16:32:47,2023-04-19 16:32:48,1.022s,PASSED
+takeFullPageScreenshot(),Chrome 112.0.0.0,,,2023-04-19 16:32:48,2023-04-19 16:32:48,0.529s,PASSED

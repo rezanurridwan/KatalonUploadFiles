@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Upload File (Single Test Case upload)</description>
-   <name>TCUploadF 01 - Upload dengan menekan tombol choose file</name>
-   <tag>Upload file</tag>
-   <comment></comment>
-   <testCaseGuid>c4786f0c-bb0a-4d12-83bb-e7582641fc1c</testCaseGuid>
-</TestCaseEntity>
