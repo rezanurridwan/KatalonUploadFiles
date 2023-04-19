@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Upload Foto (Metode DDT)</description>
+   <name>TCUploadF 01 - Upload foto</name>
+   <tag>Upload file</tag>
+   <comment></comment>
+   <testCaseGuid>ac5f57d0-3e4c-4e96-84f3-75f0cf62a75b</testCaseGuid>
+</TestCaseEntity>
